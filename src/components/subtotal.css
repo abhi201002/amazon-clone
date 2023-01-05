@@ -1,0 +1,19 @@
+.Subtotal{
+    /* width: 10px; */
+    background-color: white;
+    height:150px;
+    padding: 10px;
+}
+.Subtotal button{
+    width: 100%;
+    position: relative;
+    bottom: -70px;
+    padding: 5px;
+    background-color: #ffd814;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.Subtotal button :hover{
+    cursor: pointer;
+}

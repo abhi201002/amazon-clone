@@ -1,0 +1,22 @@
+.Home{
+    margin: auto;
+    background-color: rgb(233, 227, 227);
+}
+.Home::-webkit-scrollbar {
+    display: none;
+}
+.Home_img{
+    width: 100%;
+}
+.Home img{
+    width: 70%;
+    object-fit: contain;
+    position: relative;
+    top: 0px;
+    left: 15%;
+    /* right: 25%; */
+}
+.product_info{
+    display: flex;
+    justify-content: space-evenly;
+}

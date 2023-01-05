@@ -1,0 +1,31 @@
+.Checkout{
+    background-color: rgb(240, 238, 238);
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+.Checkout::-webkit-scrollbar {
+    display: none;
+}
+.cart{
+    flex: 0.8;
+    padding: 20px;
+    /* border: 2px solid black; */
+}
+.cart_items{
+    background-color: white;
+    margin: 10px 0px;
+    padding: 30px;
+}
+.ad img{
+    width:1000px;
+    object-fit: contain;
+}
+.subtotal{
+    /* height: 50px; */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 0.2;
+    /* border: 2px solid red; */
+}
