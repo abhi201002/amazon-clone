@@ -2,6 +2,7 @@
     background-color: rgb(240, 238, 238);
     display: flex;
     min-height: 100vh;
+    min-width: 300px;
     justify-content: space-between;
 }
 .Checkout::-webkit-scrollbar {
@@ -18,7 +19,8 @@
     padding: 30px;
 }
 .ad img{
-    width:1000px;
+    /* width:1000px; */
+    width: 100%;
     object-fit: contain;
 }
 .subtotal{

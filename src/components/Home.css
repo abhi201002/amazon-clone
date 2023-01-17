@@ -1,6 +1,7 @@
 .Home{
-    margin: auto;
     background-color: rgb(233, 227, 227);
+    width: 100%;
+    min-width: 300px;
 }
 .Home::-webkit-scrollbar {
     display: none;
@@ -9,12 +10,16 @@
     width: 100%;
 }
 .Home img{
-    width: 70%;
+    width: 100%;
     object-fit: contain;
-    position: relative;
+    /* position: relative;
     top: 0px;
-    left: 15%;
+    left: 15%; */
     /* right: 25%; */
+}
+.Product{
+    position: relative;
+    top: -50px;
 }
 .product_info{
     display: flex;
